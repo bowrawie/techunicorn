@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Nunito:wght@200&display=swap');
+
+
+.cardsct{
+
+     padding: 1%; 
+    /* margin: 10%; */
+    /* display: flex;  */
+    /* background-color: aqua; */
+    width: 100%;
+    align-self: stretch;
+    
+}
+
+.cardft{
+    /* background-color: rgb(0, 136, 255); */
+    display: flex;
+    
+}
+.cards1{
+    max-height: fit-content;
+    width: 23%;
+    margin: 5px;
+    padding: 0.3%;
+    align-items: center;
+    
+    
+}
+.cardet{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: rgb(255, 0, 0); */
+    
+    
+}
+
+.inImg{
+    /* height: 80%; */
+    height: 350px;
+    /* width: fit-content; */
+}
+.catname{
+    position: relative;
+    align-self: flex-start;
+    margin-left: 5px;
+    text-transform: capitalize;
+    color: rgb(179, 177, 177);
+    margin: 10px;
+    /* font-family: 'Source Sans Pro'; */
+    font-family: 'Nunito';
+    
+}
+.cttxt{
+    font-family: 'Source Sans Pro';
+    font-size: smaller;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.ctttl{
+    font-weight: 'Bold';
+    /* font-family: 'Source Sans Pro'; */
+    font-family: 'Barlow Condensed';
+}
+.ftstr{
+    display: flex;
+    align-self: end;
+    align-items: center;
+}
+
+
+.hdr{
+    position: relative;
+    width: 100%;
+    height: 93px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-weight: bold;
+}
+.header{
+
+    color:orange;
+    position: relative;
+    width: 100%;
+    height: 93px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cc{
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    left: 80%;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+    
+
+}
+.cr{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    font-weight: bold;
+    left: 80%;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+    
+}
+.hd{
+    position: relative;
+    left: 6%;
+    font-family: "Nunito";
+}
+.mnu{
+    display: inline;
+    position: relative;
+    left: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
